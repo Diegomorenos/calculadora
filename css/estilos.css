@@ -42,8 +42,8 @@
     border-radius: 10px;
 }
 
-#datos {
-    width: 100%;
+#total {
+    width: 99%;
     height: 50px;
     margin-bottom: 2%;
     font-size: 20px;
@@ -52,3 +52,9 @@
     border-radius: 15px;
     border: rgb(99, 96, 141) solid;
 }
+
+.data :hover {
+    color: black;
+    background-color: white;
+}
+

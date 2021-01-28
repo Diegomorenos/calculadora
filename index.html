@@ -13,34 +13,34 @@
     <div class="contenedor">
         <!--para la calculadora-->
         <div class="columna">
-            <h1 style="text-align: center;">CALCULADORA</h1>
+            <h1 style="text-align: center; font-family:fantasy; color: rgb(100, 4, 4);" >CALCULADORA</h1>
             <!--resultados-->
             <div>
-                <input id="datos" type="text" disabled/>
+                <input id="total" type="text" disabled/>
             </div>
-            <!-- numeros y propiedades-->
+            <!-- numeros y operadores-->
             <div class="data row">
                 <!--numeros-->
                 <div class="row" style="width: 90%; flex-wrap: wrap;">
-                    <input type="button" class="btn-nro" onclick="" value="1">
-                    <input type="button" class="btn-nro" onclick="" value="2">
-                    <input type="button" class="btn-nro" onclick="" value="3">
-                    <input type="button" class="btn-nro" onclick="" value="4">
-                    <input type="button" class="btn-nro" onclick="" value="5">
-                    <input type="button" class="btn-nro" onclick="" value="6">
-                    <input type="button" class="btn-nro" onclick="" value="7">
-                    <input type="button" class="btn-nro" onclick="" value="8">
-                    <input type="button" class="btn-nro" onclick="" value="9">
-                    <input type="button" class="btn-nro" onclick="" value="Limpiar">
-                    <input type="button" class="btn-nro" onclick="" value="0">
-                    <input type="button" class="btn-nro" onclick="" value="=">
+                    <input type="button" class="btn-nro" onclick="imprimirnumero(this);" value="1">
+                    <input type="button" class="btn-nro" onclick="imprimirnumero(this);" value="2">
+                    <input type="button" class="btn-nro" onclick="imprimirnumero(this);" value="3">
+                    <input type="button" class="btn-nro" onclick="imprimirnumero(this);" value="4">
+                    <input type="button" class="btn-nro" onclick="imprimirnumero(this);" value="5">
+                    <input type="button" class="btn-nro" onclick="imprimirnumero(this);" value="6">
+                    <input type="button" class="btn-nro" onclick="imprimirnumero(this);" value="7">
+                    <input type="button" class="btn-nro" onclick="imprimirnumero(this);" value="8">
+                    <input type="button" class="btn-nro" onclick="imprimirnumero(this);" value="9">
+                    <input type="button" class="btn-nro" onclick="limpiarinput();" value="Limpiar">
+                    <input type="button" class="btn-nro" onclick="imprimirnumero(this);" value="0">
+                    <input type="button" class="btn-nro" onclick="igualar();" value="=">
                 </div>
-                <!--propiedades-->
+                <!--operadores-->
                 <div>
-                    <input type="button" class="btn-oper" onclick="" value="+">
-                    <input type="button" class="btn-oper" onclick="" value="-">
-                    <input type="button" class="btn-oper" onclick="" value="*">
-                    <input type="button" class="btn-oper" onclick="" value="/">
+                    <input type="button" class="btn-oper" onclick="imprimiropera(this);" value="+">
+                    <input type="button" class="btn-oper" onclick="imprimiropera(this);" value="-">
+                    <input type="button" class="btn-oper" onclick="imprimiropera(this);" value="*">
+                    <input type="button" class="btn-oper" onclick="imprimiropera(this);" value="/">
                 </div>
             </div>
         </div>
